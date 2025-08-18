@@ -4,11 +4,9 @@ from tensorflow.keras.preprocessing import image
 import os
 
 
-
 class PredictionPipeline:
     def __init__(self,filename):
-        self.filename =filename
-
+        self.filename =filename # Path to the input image file
 
     
     def predict(self):
