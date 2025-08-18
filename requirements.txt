@@ -1,5 +1,6 @@
 tensorflow==2.12.0
 pandas
+# pip install "dvc[all]==2.45.1" orjson==3.9.15
 dvc
 mlflow==2.2.2
 notebook
@@ -16,4 +17,5 @@ scipy
 flask
 flask-cors
 gdown
+# orjson==3.9.15
 -e .

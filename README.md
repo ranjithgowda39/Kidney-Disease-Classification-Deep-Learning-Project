@@ -80,6 +80,12 @@ export MLFLOW_TRACKING_USERNAME=ranjithgowda39
 
 export MLFLOW_TRACKING_PASSWORD=c07f1331b36aa658a51156a7f49b9112c637c38b
 
+# set MLFLOW_TRACKING_URI=https://dagshub.com/ranjithgowda39/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+# set MLFLOW_TRACKING_USERNAME=ranjithgowda39
+
+# set MLFLOW_TRACKING_PASSWORD=c07f1331b36aa658a51156a7f49b9112c637c38b
+
 ```
 
 
