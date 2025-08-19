@@ -25,8 +25,6 @@ def home():
     return render_template('index.html')
 
 
-
-
 @app.route("/train", methods=['GET','POST'])
 @cross_origin()
 def trainRoute():
@@ -44,7 +42,7 @@ def predictRoute():
     result = clApp.classifier.predict()
     return jsonify(result)
 
-
+# main function to run the Flask app
 if __name__ == "__main__":
     clApp = ClientApp()
 
